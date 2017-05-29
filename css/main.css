@@ -1,0 +1,43 @@
+/*GENERALES*/
+body {
+	margin: 0px;
+}
+
+.raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.yellow {
+	background-color: #F7B617;
+}
+
+.col-xs-12 {
+	/*Para el cuadrado de hero - conductor*/
+	padding: 0 !important;
+}
+
+/*NAVBAR*/
+
+nav {
+	padding: 1em;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
+
+/*SECTION HERO*/
+
+#hero {
+	background-image: url(../img/img/taxi.jpg);
+}
+
+#hero1 {
+	float: right;
+	color: white;
+	padding: 1.5em;
+}
