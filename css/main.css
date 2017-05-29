@@ -16,6 +16,10 @@ body {
 	color: white;
 }
 
+.white {
+	color: white;
+}
+
 .col-xs-12 {
 	/*Para el cuadrado de hero - conductor*/
 	padding: 0 !important;
@@ -75,3 +79,48 @@ h2 {
 	padding: 3em;
 
 }
+
+/*SECTION CONDUCE*/
+#fondo {
+	background-image: url(../img/img/conduce.jpg);
+}
+
+#fondo1 {
+	height: 400px;
+	background-color: rgba(53, 50, 43, 0.2);
+	float: right;
+	padding: 4em 1em 8em 3em; 
+}
+
+#driver2 {
+	font-size: 20px;
+	border: none;
+}
+
+/*SECTION TARIFA*/
+
+#tarifa {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+#punto-destino, #punto-partida {
+	width: 60%;
+	display: inline-flex !important;
+	background-color: #F7B617 !important;
+	margin-top: 1em;
+	margin-bottom: 1em; 
+}
+
+	/*Para el color del placeholder*/
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+	/*Mapa*/
+#map {
+        height: 400px;
+        width: 40%;
+        border: 10px solid white;
+       }
