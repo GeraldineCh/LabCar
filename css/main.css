@@ -128,6 +128,7 @@ h2 {
 	background-color: #F7B617 !important;
 	margin-top: 1em;
 	margin-bottom: 1em; 
+	margin-left: 1em;
 }
 
 	/*Para el color del placeholder*/
@@ -138,8 +139,8 @@ h2 {
 
 	/*Mapa*/
 #map {
-        height: 400px;
-        width: 40%;
+        height: 430px;
+        width: 430px;
         border: 10px solid white;
        }
 
