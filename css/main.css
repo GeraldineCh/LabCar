@@ -13,6 +13,7 @@ body {
 
 .yellow {
 	background-color: #F7B617;
+	color: white;
 }
 
 .col-xs-12 {
@@ -32,12 +33,45 @@ nav {
 
 /*SECTION HERO*/
 
+h1 {
+	font-weight: bolder;
+}
+
 #hero {
 	background-image: url(../img/img/taxi.jpg);
 }
 
 #hero1 {
 	float: right;
-	color: white;
-	padding: 1.5em;
+	padding: 3em;
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+
+#driver {
+	font-weight: bolder;
+	color: black !important;
+	font-size: 20px;
+}
+
+/*SECTION INFORMACIÓN*/
+
+#info {
+	padding-top: 2em !important;
+	padding-bottom: 2em !important;
+}
+
+h2 {
+	font-weight: bolder;
+}
+
+.parrafo {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+#info-borde {
+	border: 1px solid white;
+	padding: 3em;
+
 }
