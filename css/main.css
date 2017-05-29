@@ -57,6 +57,8 @@ h1 {
 
 #hero {
 	background-image: url(../img/img/taxi.jpg);
+	background-size: 100% 219%;
+    background-position-y: -688px;
 }
 
 #hero1 {
@@ -69,14 +71,14 @@ h1 {
 #driver {
 	font-weight: bolder;
 	color: black !important;
-	font-size: 20px;
+
 }
 
 /*SECTION INFORMACIÓN*/
 
 #info {
-	padding-top: 2em !important;
-	padding-bottom: 2em !important;
+	padding-top: 3em !important;
+	padding-bottom: 3em !important;
 }
 
 h2 {
@@ -97,13 +99,15 @@ h2 {
 /*SECTION CONDUCE*/
 #fondo {
 	background-image: url(../img/img/conduce.jpg);
+	background-size: 100% 168%;
+    background-position-y: -121px;
 }
 
 #fondo1 {
-	height: 400px;
-	background-color: rgba(53, 50, 43, 0.2);
+	height: 450px;
+	background-color: rgba(53, 50, 43, 0.5);
 	float: right;
-	padding: 4em 1em 8em 3em; 
+	padding: 5em 1em 8em 3em; 
 }
 
 #driver2 {
