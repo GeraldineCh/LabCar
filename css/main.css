@@ -27,13 +27,27 @@ body {
 
 /*NAVBAR*/
 
-nav {
-	padding: 1em;
+@media (min-width: 768px) {
+	nav {
+	padding: 2em 4em;
+	}
+}
+
+@media (max-width: 767px) {
+	nav {
+	padding-bottom: 1em;
+	}
 }
 
 .navbar {
-	margin-bottom: 0px !important;
+		margin-bottom: 0px !important;
+		font-size: 16px;
+	}
+
+.navbar-nav>li>a {
+	color: black !important;
 }
+
 
 /*SECTION HERO*/
 
