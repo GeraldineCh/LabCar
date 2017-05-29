@@ -25,6 +25,8 @@ body {
 	padding: 0 !important;
 }
 
+
+
 /*NAVBAR*/
 
 @media (min-width: 768px) {
@@ -35,7 +37,7 @@ body {
 
 @media (max-width: 767px) {
 	nav {
-	padding-bottom: 1em;
+	padding: 4em 2em;
 	}
 }
 
@@ -50,49 +52,133 @@ body {
 
 
 /*SECTION HERO*/
+@media (min-width: 768px) {
 
-h1 {
-	font-weight: bolder;
+	h1 {
+		font-weight: bolder;
+	}
+
+	#hero {
+		background-image: url(../img/img/taxi.jpg);
+		background-size: 100% 219%;
+	    background-position-y: -688px;
+	}
+
+	#hero1 {
+		float: right;
+		padding: 3em;
+		margin-top: 8em;
+		margin-bottom: 8em;
+	}
+
+	#hero-mobile {
+		display: none;
+	}
+
+	#driver {
+		font-weight: bolder;
+		color: black !important;
+
+	}
+
 }
 
-#hero {
+@media (max-width: 767px) {
+	#hero {
 	background-image: url(../img/img/taxi.jpg);
-	background-size: 100% 219%;
-    background-position-y: -688px;
-}
+	background-size: 100% 138%;
+    background-position-y: -154px;
+	}
 
-#hero1 {
-	float: right;
-	padding: 3em;
-	margin-top: 8em;
-	margin-bottom: 8em;
-}
+	#hero1 {
+		float: right;
+		padding: 3em;
+		margin-top: 8em;
+		margin-bottom: 8em;
+	}
 
-#driver {
-	font-weight: bolder;
-	color: black !important;
+	#hero-desktop {
+		display: none;
+	}
 
+	#hero-mobile {
+		display: visible;
+	}
+
+	#driver2 {
+		font-weight: bolder;
+		color: black !important;
+
+	}
 }
 
 /*SECTION INFORMACIÓN*/
 
-#info {
-	padding-top: 3em !important;
-	padding-bottom: 3em !important;
+@media (min-width: 768px) {
+
+	#info {
+		padding-top: 3em !important;
+		padding-bottom: 3em !important;
+	}
+
+	h2 {
+		font-weight: bolder;
+	}
+
+	.parrafo {
+		font-size: 22px;
+		font-weight: lighter;
+	}
+
+	#info-borde {
+		border: 1px solid white;
+		padding: 3em;
+
+	}
+
+	#info-desktop {
+		display: visible;
+	}
+
+	#info-mobile {
+		display: none;
+	}
 }
 
-h2 {
-	font-weight: bolder;
-}
+@media (max-width: 767px) {
 
-.parrafo {
-	font-size: 22px;
-	font-weight: lighter;
-}
+	#info-desktop {
+		display: none;
+	}
 
-#info-borde {
-	border: 1px solid white;
-	padding: 3em;
+	#info-mobile {
+		display: visible;
+	}
+
+	#cel {
+		width: 100%;
+	}
+
+	#info {
+		padding-top: 3em !important;
+		padding-bottom: 3em !important;
+	}
+
+	h2 {
+		font-weight: bolder;
+	}
+
+	.parrafo {
+		font-size: 22px;
+		font-weight: lighter;
+	}
+
+	#info-borde {
+		border: 1px solid white;
+		padding: 3em;
+		margin-bottom: 1em;
+
+	}
 
 }
 
