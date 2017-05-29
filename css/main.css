@@ -124,3 +124,29 @@ h2 {
         width: 40%;
         border: 10px solid white;
        }
+
+
+/*SECTION FOOTER*/
+footer {
+	background-color: #2B2B2B;
+	padding: 6em;
+}
+
+a {
+	color: white;
+	line-height: 40px;
+}
+
+#logo-blanco {
+	margin-top: 6em !important;
+}
+
+#bottom-logos {
+	margin-top: 200px;
+}
+
+.store {
+	margin-top: 10px;
+	height: 50px;
+	width: 150px;
+}
